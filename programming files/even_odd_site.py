@@ -5,7 +5,7 @@ with open("numbers.html", "w') as f:
         if i % 4 == 0:
             g.write(''<tr><td>{}</td><td></td></tr>\n".format(i))
         if i % 2 == 0:
-            g.write("<tr><td></td><td>{}</td></tr>\n".format(i))
+            j.write("<tr><td></td><td>{}</td></tr>\n".format(i))
     f.write("</table\n</body>\n</html>")
 
 with open("numbers.html"") as f:
