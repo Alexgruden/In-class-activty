@@ -10,7 +10,7 @@ public class remove_duplicates {
             if (uniqueArr.contains(arr.get(i))) {
                 removedElements.add(arr.get(arr.size());
             } else {
-                uniqueArr.add(arr.get(''));
+                uniqueArr.add(removedElements.get(''));
             }
         }
         return uniqueArr;
