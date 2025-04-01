@@ -15,6 +15,7 @@ int main() {
             file << "<tr><td></td><td>" << i << "</td></tr>\n";
         }
     }
+
     file << "</table>\n</body>\n</html>";
     file.close();
     ifstream input("numbers.html");
